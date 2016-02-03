@@ -1,7 +1,7 @@
 {
-  "name": "botkit",
-  "version": "0.0.5",
-  "description": "Building blocks for Building Bots",
+  "name": "boob-bot",
+  "version": "0.0.1",
+  "description": "Boob bot constructed using botkit",
   "main": "lib/Botkit.js",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -12,7 +12,9 @@
     "mustache": "^2.2.1",
     "request": "^2.67.0",
     "ws": "^1.0.0",
-    "google-images": "1.0.0"
+    "google-images": "1.0.0",
+    "ejs": "2.3.3",
+    "express": "4.13.3"
   },
   "devDependencies": {
     "jscs": "^2.7.0",
@@ -22,23 +24,28 @@
     "tape": "^4.4.0",
     "winston": "^2.1.1"
   },
+  "engines": {
+    "node": "0.12.7"
+  },
   "scripts": {
     "pretest": "jscs ./lib/",
-    "test": "mocha tests/*.js"
+    "test": "mocha tests/*.js",
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit.git"
+    "url": "https://github.com/nomeacuerdo/boob-bot"
   },
   "bugs": {
     "url": "https://github.com/howdyai/botkit/issues"
   },
-  "homepage": "http://howdy.ai/botkit",
+  "homepage": "https://github.com/nomeacuerdo/boob-bot",
   "keywords": [
+    "boobs",
     "bots",
     "chatbots",
     "slack"
   ],
-  "author": "ben@xoxco.com",
+  "author": "nomeacuerdo@gmail.com",
   "license": "MIT"
 }

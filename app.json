@@ -1,0 +1,8 @@
+{
+  "name": "Boob bot",
+  "description": "Boob bot constructed using botkit (http://howdy.ai/botkit)",
+  "repository": "https://github.com/nomeacuerdo/boob-bot",
+  "logo": "",
+  "keywords": ["node", "boobs", "bot", "botkit"],
+  "image": "heroku/nodejs"
+}
