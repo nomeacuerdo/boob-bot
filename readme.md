@@ -1,3 +1,4 @@
+# Boob bot!
 # [Botkit](http://howdy.ai/botkit) - Building Blocks for Building Bots
 
 Botkit designed to ease the process of designing and running useful, creative or
@@ -607,7 +608,7 @@ askSize = function(response, convo) {
     convo.next();
   });
 }
-askWhereDeliver = function(response, convo) { 
+askWhereDeliver = function(response, convo) {
   convo.ask("So where do you want it delivered?", function(response, convo) {
     convo.say("Ok! Good by.");
     convo.next();
@@ -991,7 +992,7 @@ where you may want a more sophisticated logging solution. You can write your
 own logging module that uses a third-party tool, like
 [winston](https://github.com/winstonjs/winston) or
 [Bristol](https://github.com/TomFrost/Bristol). Just create an object with a
-`log` method. That method should take a severity level (such as `'error'` or 
+`log` method. That method should take a severity level (such as `'error'` or
 `'debug'`) as its first argument, and then any number of other arguments that
 will be logged as messages. (Both Winston and Bristol create objects of this
 description; it's a common interface.)
