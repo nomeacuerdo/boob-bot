@@ -1,1 +1,1 @@
-# Boob bot!
+# Boob bot for slack!
